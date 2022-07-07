@@ -56,6 +56,7 @@ table {
     float: left;
 }
 body{
+    @media screen;
     /*background-color: #62AC7A;*/
     background-color: #616CA6;
     
@@ -80,7 +81,7 @@ h1{
 input{
     width: 40%;
     display: inline-block;
-    font-size: 2em;
+    font-size: 200%;
     margin: 4%;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
