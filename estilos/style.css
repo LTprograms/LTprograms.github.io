@@ -44,40 +44,57 @@ table {
 }
 
 /*DISEÑO PROPIO*/
-
-header{
-    background-color: aquamarine;
+#main{
+    /*background-color: #61A979;*/
+    background-color: #616DA9;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 25px;
+    margin: 15% 25% ;
+    color: white;
+    float: left;
+}
+body{
+    /*background-color: #62AC7A;*/
+    background-color: #616CA6;
+    
+}
+#c1, #c2{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+#c2{
+    margin-right: 0%;
 }
 h1, h2{
-    width: fit-content;
-    margin: auto;
-    font-size: 2em;
+    text-align: justify;
+    font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
 }
-body{
-    background-color: beige;
-}
-section, aside{
-    width: 50%;
-    margin: 5% auto;
-}
 input{
-    width: 41%;
+    width: 40%;
     display: inline-block;
     font-size: 2em;
     margin: 4%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #323234;
 }
 #texto{
-    width: fit-content;
-    margin: auto;
     font-size: 2em;
     font-weight: bold;
+    background-color: #323234;
+    border-radius: 10px;
+    padding: 2%;
 }
 ul{
     font-size: 2em;
-    margin-left: 15%;
 }
