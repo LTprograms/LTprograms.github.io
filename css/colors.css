@@ -1,0 +1,15 @@
+/* BACKGROUND */
+.bg-black { background-color: black; }
+.bg-white { background-color: white; }
+.bg-dark { background-color: var(--dark); }
+.bg-light { background-color: var(--light); }
+.bg-primary { background-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+
+/* TEXT COLOR */
+.text-white { color: white; }
+.text-black { color: black; }
+.text-dark { color: var(--dark); }
+.text-light { color: var(--light); }
+.text-primary { color: var(--primary); }
+.text-secondary { color: var(--secondary); }

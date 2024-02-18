@@ -1,0 +1,35 @@
+.navbar {
+    padding: .5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item a {
+    color: var(--light);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 18px;
+    transition: border ease-in-out .2s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.nav-item a:hover, .nav-item a.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.introduction {
+    padding: 3rem 5rem;
+}
+.introduction h1 {
+    font-size: 3rem;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
