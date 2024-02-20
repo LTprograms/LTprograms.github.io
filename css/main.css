@@ -19,17 +19,38 @@
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-.introduction {
-    padding: 3rem 5rem;
-}
+.py-3 { padding: 3rem 0; }
+.px-5 { padding: 0 5rem; }
 .introduction h1 {
     font-size: 3rem;
+}
+
+.languages {
+    list-style: disc;
+}
+.languages li {
+    padding: .5rem 0;
 }
 
 html::-webkit-scrollbar {
     display: none;
   }
 html {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.about-sect h2 {
+    margin-bottom: 1rem;
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.plus {
+    font-size: 50px;
+    font-weight: bold;
+}

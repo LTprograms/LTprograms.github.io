@@ -30,12 +30,18 @@
 }
 .circle { border-radius: 50%; }
 .w-50 { width: 50%; }
+
+.bold { font-weight: bold; }
+.text-decoration-none { text-decoration: none; }
+.text-justify { text-align: justify; }
 body {    
     position: relative;
+    display: flex;
+    flex-direction: column;    
 }
 body::before{
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -44,13 +50,17 @@ body::before{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-attachment: fixed;
     opacity: 0.075;
     z-index: -1;
 }
 
 ul {
     list-style: none;
+}
+
+section {
+    flex-grow: 1;
+    padding: 3rem 0;
 }
 footer {
     background-color: var(--primary);

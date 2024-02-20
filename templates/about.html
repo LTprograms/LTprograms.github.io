@@ -1,3 +1,109 @@
-<div>
-    About me content
-</div>
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full bg-light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTprograms | About me</title>
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="w-full">
+    <header class="sticky">
+        <nav class="navbar bg-primary">
+            <a href="#"><img src="../img/logo.png" alt="LTprograms" width="100"></a>
+            <ul class="center gap-2">
+                <li class="nav-item"><a href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="active" href="">About me</a></li>
+                <li class="nav-item"><a href="./abilities.html">Abilities</a></li>
+                <li class="nav-item"><a href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="py-3 px-5">
+            <div class="center gap-5">
+                <img class="circle w-50" src="../img/foto.png" alt="LTprograms">
+                <div class="w-50">
+                    <h2 class="text-primary">About me</h2>
+                    <table class="py-3 w-full">
+                        <tbody>
+                            <tr>
+                                <td><p class="text-secondary bold">Name: </p></td>
+                                <td><p>Jose Luis La Torre Romero</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="text-secondary bold">Age: </p></td>
+                                <td><p id="age"></p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="text-secondary bold">Nationality: </p></td>
+                                <td><p>Peruvian</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="text-secondary bold">Email: </p></td>
+                                <td><p>joselatorre143351@gmail.com</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="text-secondary bold">Phone Number: </p></td>
+                                <td><p>+51 941 831 923</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="text-secondary bold">Actual status: </p></td>
+                                <td><p>Student</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-justify">
+                        Hi! I'm Luis La Torre. I'm a Software Engineering student from 
+                        <span class="text-secondary bold">UNMSM</span>. I'm envolved in web development, 
+                        frontend and backend technologies. However, I have also knowledge in 
+                        mobile development and IoT. You can contact me or visit my 
+                        <a href="#" class="text-secondary text-decoration-none">repo</a>
+                    </p>
+                </div>
+            </div>
+            <div class="center gap-5 about-sect">
+                <div class="w-50">
+                    <h2 class="text-primary">Education</h2>
+                    <ul>
+                        <li class="text-justify">
+                            <span class="text-secondary bold">UNMSM (2022 - Today)</span>: I'm in 3rd year 
+                            of my Software Engineering studies at UNMSM, Peru, first university of America. <br>
+                            I've made some achivements in this university and you can see some of them 
+                            <a class="text-secondary text-decoration-none" href="#">here</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-50">
+                    <h2 class="text-primary">Languages</h2>
+                    <ul class="languages">
+                        <li>Spanish (Native)</li>
+                        <li>English (B2)</li>
+                        <li>Italian (B2)</li>
+                        <li>Portuguese (B2)</li>
+                        <li>German (A2)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul class="center gap-2">
+            <li><a target="_blank" href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+    </footer>
+</body>
+<script src="../js/functions.js"></script>
+<script>
+    document.getElementById("age").textContent = getAge('2003/05/28');
+</script>
+</html>
